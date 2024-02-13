@@ -518,3 +518,271 @@ button.hero img {
     left: 10px;
     top: 4px;
 }
+
+
+.footerSection {
+    width: 100%;
+    height: auto;
+    background-color: #111b21;
+}
+
+.footerSectionContent img {
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+button.footer-download {
+    font-size: 20px;
+    background-color: #25d366;
+    padding: 13px 22px 13px 22px;
+    border-radius: 35px;
+    color: #1c1e21;
+    font-family: "Roboto", sans-serif;
+    border: 1px solid #1c1e21;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+button.footer-download span img {
+    width: 20%;
+    position: relative;
+    left: 7px;
+    top: 4px;
+}
+
+.firstHeading {
+    display: flex;
+    justify-content: space-around;
+}
+
+.firstHeading h4 {
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-size: 13px;
+    margin-top: -16%;
+    margin-right: 35%;
+}
+
+.firstFooter {
+    display: flex;
+    justify-content: space-around;
+}
+
+.firstFooter ul {
+    list-style-type: none;
+    font-size: 20px;
+    font-weight: 400;
+    margin-right: 32%;
+    margin-top: -12%;
+    line-height: 2;
+}
+
+.firstFooter li {
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+}
+
+.secondHeading {
+    display: flex;
+    justify-content: space-around;
+}
+
+.secondHeading h4 {
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-size: 13px;
+    margin-top: -16%;
+    margin-right: 5%;
+}
+
+.secondFooter {
+    display: flex;
+    justify-content: space-around;
+}
+
+.secondFooter ul {
+    list-style-type: none;
+    font-size: 20px;
+    font-weight: 400;
+    margin-right: 2%;
+    margin-top: -12%;
+    line-height: 2;
+}
+
+.secondFooter li {
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+}
+
+.thirdHeading {
+    display: flex;
+    justify-content: space-around;
+}
+
+.thirdHeading h4 {
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-size: 13px;
+    margin-top: -16%;
+    margin-left: 25%;
+}
+
+.thirdFooter {
+    display: flex;
+    justify-content: space-around;
+}
+
+.thirdFooter ul {
+    list-style-type: none;
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 28%;
+    margin-top: -12%;
+    line-height: 2;
+}
+
+.thirdFooter li {
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+}
+
+.fourHeading {
+    display: flex;
+    justify-content: space-around;
+}
+
+.fourHeading h4 {
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-size: 13px;
+    margin-top: -16%;
+    margin-left: 55%;
+}
+
+.fourFooter {
+    display: flex;
+    justify-content: space-around;
+}
+
+.fourFooter ul {
+    list-style-type: none;
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 62%;
+    margin-top: -12%;
+    line-height: 2;
+}
+
+.fourFooter li {
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+}
+
+.footerLine {
+    width: 79%;
+    height: auto;
+    text-align: center;
+    margin-left: 10%;
+    margin-top: 1%;
+}
+
+.footerLine hr {
+    color: #33463f;
+}
+
+.fiveHeading {
+    width: 100%;
+    height: auto;
+}
+
+.fiveHeading h2 {
+    color: #FFF;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    margin-left: 10%;
+    margin-top:1%;
+}
+
+.sixHeading {
+    display: flex;
+    justify-content: space-around;
+}
+
+.sixHeading h2 {
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-size: 13px;
+    margin-top: -2.2%;
+    margin-left: -45%;
+}
+
+.social-icons{
+    text-align: center;
+    position: relative;
+    top: -33px;
+}
+
+.social-icons .fab.fa-twitter {
+    color:#fff;
+    font-size: 25px;
+}
+
+.social-icons .fab.fa-youtube {
+    color:#fff;
+    font-size: 25px;
+}
+
+.social-icons .fab.fa-instagram {
+    color:#fff;
+    font-size: 25px;
+}
+
+.social-icons .fab.fa-facebook {
+    color:#fff;
+    font-size: 25px;
+}
+
+.social-icons a {
+    margin-right: 20px; 
+    border-radius: 50%;
+    background-color: #1c1e21;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-color:#fff;
+    border-style: solid;
+  }
+
+  .social-icons a:hover {
+    background-color: #25d366;
+  }
+
+  .translateButton{
+    display: flex;
+    justify-content: end;
+    position: relative;
+    top: -75px;
+    right: 20%;
+  }
+
+  button.translate{
+    background-color:#111b21;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    border-radius: 25px;
+    padding: 10px 15px 10px 15px;
+    border-color:#fff;
+    border-style: solid;
+    text-align: center;
+}
+
+button.translate img{
+    width: 20px;
+    height: auto;
+    position: relative;
+    top: 6px;
+}
+  
