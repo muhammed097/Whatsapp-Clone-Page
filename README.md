@@ -6,7 +6,7 @@ This project is a clone of the WhatsApp homepage, created for educational and le
 ## Project Status
 Currently, the project includes the basic structure and styling of the WhatsApp homepage. Work is ongoing to improve responsiveness and ensure that the page looks great on both mobile and desktop screens.
 
-Website Link:muhammed097.github.io/Whatsapp-Clone-Page/
+Website Link:https://muhammed097.github.io/Whatsapp-Clone-Page/
 
 ### What's Implemented
 - Basic layout structure using HTML.
