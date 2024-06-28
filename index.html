@@ -228,19 +228,19 @@
     </footer>
 
 <script>
-      document.addEventListener('contextmenu', function(e) {
+     document.addEventListener('contextmenu', function(e) {
     if (e.target.nodeName === 'IMG') {
         e.preventDefault();
         alert('Right-clicking on images is disabled.');
     }
 }, false);
 
-// Attempt to disable Ctrl+Shift+I
-document.onkeydown = function(e) {
-    if (e.ctrlKey && e.shiftKey && e.keyCode == 73) {
+document.addEventListener('keydown', function(e) {
+    if (e.ctrlKey && e.shiftKey && e.key === 'I') {
         e.preventDefault();
         alert('Developer tools shortcut is disabled.');
     }
-};
+}, false);
+
 </script>
 </body>
